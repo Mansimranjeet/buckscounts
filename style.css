@@ -13,3 +13,60 @@
 }
 
 /* your code */
+body{
+  display : flex;
+  flex-direction: column;
+  background-color: rgb(41, 70, 46);
+}
+
+.city-list,nav,header{
+  padding: 5px;
+  margin: 0.5em;
+  width: 70%;
+  align-self: center;
+}
+
+.city-list{
+ 
+  display : flex ;
+  padding: 5px;
+  border : 0.1em solid white;
+  flex-direction : column;
+  
+
+  
+  
+}
+
+.city-item{
+  display: inline;
+  padding : 5px;
+  margin : 5px;
+  background-color: #00754a;
+  border: 1px solid yellow;
+  background-size: cover;
+
+  
+}
+
+nav{
+  
+  justify-content: space-between;
+  display : flex;
+  flex-direction : row;
+  box-shadow: 5px 10px 10px black;
+  
+  
+}
+
+h1{
+  color : azure;
+  font-size: 60;
+}
+header{
+
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  
+}
